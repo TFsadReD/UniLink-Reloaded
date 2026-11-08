@@ -1,8 +1,14 @@
 [project]
-name = "unilink-reloaded"
+name = "UniLink-Reloaded"
 version = "0.1.0"
-description = "Add your description here"
+
+description = "Your link bookmark manager"
 readme = "README.md"
+
+authors = [
+    { name = "TFsadReD" }
+]
+
 requires-python = ">=3.12"
 dependencies = [
     "django>=6.1.3",
