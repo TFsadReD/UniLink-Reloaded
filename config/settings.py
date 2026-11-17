@@ -26,6 +26,9 @@ ALLOWED_HOSTS = ["*"]
 # Определение приложений (компонентов проекта)
 
 INSTALLED_APPS = [
+    "users",
+    "bookmarks",
+
     "django.contrib.admin",
     "django.contrib.auth",
     "django.contrib.contenttypes",
