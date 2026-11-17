@@ -1,6 +1,6 @@
 [project]
 name = "UniLink-Reloaded"
-version = "0.1.0"
+version = "0.2.1"
 
 description = "Your link bookmark manager"
 readme = "README.md"

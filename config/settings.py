@@ -29,6 +29,10 @@ INSTALLED_APPS = [
     "users",
     "bookmarks",
 
+    "rest_framework",
+    "rest_framework_simplejwt",
+    "rest_framework_simplejwt.token_blacklist",
+
     "django.contrib.admin",
     "django.contrib.auth",
     "django.contrib.contenttypes",
@@ -45,6 +49,8 @@ MIDDLEWARE = [
     "django.contrib.auth.middleware.AuthenticationMiddleware",
     "django.contrib.messages.middleware.MessageMiddleware",
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
+
+    "user.middleware.JWTCookieMiddleware",
 ]
 
 ROOT_URLCONF = "config.urls"
